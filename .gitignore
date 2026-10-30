@@ -1,0 +1,30 @@
+# Local lab config (copy from config/lab.config.example.psd1)
+config/lab.config.psd1
+
+# VM and media files never belong in git
+*.vmx
+*.vmxf
+*.vmdk
+*.vmsd
+*.vmss
+*.nvram
+*.iso
+*.ova
+*.ovf
+*.log
+*.bak
+logs/
+
+# Secrets
+*.env
+.env*
+*.pfx
+*.pem
+*.key
+*creds*
+*CREDS*
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
